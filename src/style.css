@@ -1,0 +1,14 @@
+.person {
+  display: grid;
+  grid-template-columns: auto 1fr;
+  column-gap: 20px;
+  align-items: center;
+  margin-left: 2rem;
+}
+
+img {
+  border-radius: 50%;
+  box-shadow: 0px 9px 16px 0px rgba(0, 0, 0, 0.75);
+  -webkit-box-shadow: 0px 9px 16px 0px rgba(0, 0, 0, 0.75);
+  -moz-box-shadow: 0px 9px 16px 0px rgba(0, 0, 0, 0.75);
+}
